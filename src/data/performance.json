@@ -3,28 +3,37 @@
     "completion": 78,
     "turnaround": 2.4,
     "quality": 82,
-    "score": 80,
+    "score": 83,
     "tasksCompleted": 12,
     "tasksInProgress": 3,
-    "avgResponseTime": "2.4 days"
+    "avgResponseTime": "2.4 days",
+    "digitalAdoption": 65,
+    "teamCollaboration": 74,
+    "weeklyTrend": [70, 75, 78, 82, 85, 88]
   },
   "manager": {
     "completion": 86,
     "turnaround": 1.9, 
     "quality": 88,
-    "score": 85,
+    "score": 87,
     "tasksCompleted": 18,
     "tasksInProgress": 2,
-    "avgResponseTime": "1.9 days"
+    "avgResponseTime": "1.9 days",
+    "digitalAdoption": 78,
+    "teamCollaboration": 85,
+    "weeklyTrend": [75, 80, 83, 87, 89, 92]
   },
   "admin": {
     "completion": 92,
     "turnaround": 1.2,
     "quality": 94,
-    "score": 90,
+    "score": 91,
     "tasksCompleted": 25,
     "tasksInProgress": 1,
-    "avgResponseTime": "1.2 days"
+    "avgResponseTime": "1.2 days",
+    "digitalAdoption": 88,
+    "teamCollaboration": 92,
+    "weeklyTrend": [80, 85, 88, 91, 93, 95]
   },
   "departmentMetrics": {
     "totalTasks": 156,
@@ -32,6 +41,14 @@
     "overdueTasks": 8,
     "onTimeCompletion": 89,
     "avgQualityScore": 85,
-    "teamProductivity": 82
+    "teamProductivity": 82,
+    "monthlyGrowth": 5.2,
+    "efficiencyIndex": 78
+  },
+  "trends": {
+    "lastWeekImprovement": 3.5,
+    "monthlyGrowth": 12.8,
+    "qualityImprovement": 2.1,
+    "speedImprovement": -0.4
   }
 }

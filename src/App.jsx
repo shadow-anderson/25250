@@ -1,9 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import useAppStore from './store/useAppStore';
+import { Toaster } from '@/components/ui/toaster';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Tasks from './pages/Tasks';
+import TaskTracker from './pages/TaskTracker';
+import AIInsightsDemo from './pages/AIInsightsDemo';
 
 // Protected Route component
 const ProtectedRoute = ({ children }) => {
@@ -59,6 +62,22 @@ function App() {
               </ProtectedRoute>
             } 
           />
+          <Route 
+            path="/task-tracker" 
+            element={
+              <ProtectedRoute>
+                <TaskTracker />
+              </ProtectedRoute>
+            } 
+          />
+          <Route 
+            path="/ai-insights" 
+            element={
+              <ProtectedRoute>
+                <AIInsightsDemo />
+              </ProtectedRoute>
+            } 
+          />
           
           {/* Default redirect */}
           <Route path="/" element={<Navigate to="/dashboard" replace />} />
@@ -66,6 +85,7 @@ function App() {
           {/* Catch all route */}
           <Route path="*" element={<Navigate to="/dashboard" replace />} />
         </Routes>
+        <Toaster />
       </div>
     </Router>
   );

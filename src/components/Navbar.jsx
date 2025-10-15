@@ -43,6 +43,18 @@ const Navbar = () => {
               >
                 Tasks
               </button>
+              <button
+                onClick={() => navigate('/task-tracker')}
+                className="text-gray-700 hover:bg-blue-50 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-200"
+              >
+                🎯 Task Tracker
+              </button>
+              <button
+                onClick={() => navigate('/ai-insights')}
+                className="text-gray-700 hover:bg-blue-50 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-200"
+              >
+                🧩 AI Insights
+              </button>
             </div>
           </div>
 
