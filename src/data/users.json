@@ -1,0 +1,23 @@
+[
+  {
+    "id": "user1",
+    "name": "John Doe",
+    "role": "employee",
+    "department": "Water Resources",
+    "email": "john.doe@gov.in"
+  },
+  {
+    "id": "user2", 
+    "name": "Sarah Manager",
+    "role": "manager",
+    "department": "Water Resources",
+    "email": "sarah.manager@gov.in"
+  },
+  {
+    "id": "user3",
+    "name": "Admin User",
+    "role": "admin", 
+    "department": "IT Administration",
+    "email": "admin@gov.in"
+  }
+]

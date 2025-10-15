@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Prepare DPR for River Basin Project",
+    "deadline": "2025-10-20",
+    "status": "Ongoing",
+    "progress": 60,
+    "assignedTo": "John Doe",
+    "priority": "High",
+    "description": "Detailed Project Report preparation for new river basin development"
+  },
+  {
+    "id": 2,
+    "name": "Review File Disposal Reports",
+    "deadline": "2025-10-25", 
+    "status": "Pending",
+    "progress": 20,
+    "assignedTo": "John Doe",
+    "priority": "Medium",
+    "description": "Review and approve file disposal reports for Q3"
+  },
+  {
+    "id": 3,
+    "name": "Update Water Quality Database", 
+    "deadline": "2025-10-18",
+    "status": "Completed",
+    "progress": 100,
+    "assignedTo": "Sarah Manager",
+    "priority": "High",
+    "description": "Monthly update of water quality monitoring data"
+  },
+  {
+    "id": 4,
+    "name": "Audit Financial Records",
+    "deadline": "2025-11-01",
+    "status": "Not Started", 
+    "progress": 0,
+    "assignedTo": "Admin User",
+    "priority": "Low",
+    "description": "Annual audit of department financial records"
+  },
+  {
+    "id": 5,
+    "name": "Staff Training Program Setup",
+    "deadline": "2025-10-30",
+    "status": "Ongoing",
+    "progress": 45,
+    "assignedTo": "Sarah Manager", 
+    "priority": "Medium",
+    "description": "Organize quarterly staff training on new government policies"
+  },
+  {
+    "id": 6,
+    "name": "Infrastructure Maintenance Report",
+    "deadline": "2025-10-22",
+    "status": "Pending",
+    "progress": 15,
+    "assignedTo": "John Doe",
+    "priority": "High", 
+    "description": "Quarterly infrastructure maintenance and status report"
+  }
+]

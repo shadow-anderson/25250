@@ -1,0 +1,37 @@
+{
+  "employee": {
+    "completion": 78,
+    "turnaround": 2.4,
+    "quality": 82,
+    "score": 80,
+    "tasksCompleted": 12,
+    "tasksInProgress": 3,
+    "avgResponseTime": "2.4 days"
+  },
+  "manager": {
+    "completion": 86,
+    "turnaround": 1.9, 
+    "quality": 88,
+    "score": 85,
+    "tasksCompleted": 18,
+    "tasksInProgress": 2,
+    "avgResponseTime": "1.9 days"
+  },
+  "admin": {
+    "completion": 92,
+    "turnaround": 1.2,
+    "quality": 94,
+    "score": 90,
+    "tasksCompleted": 25,
+    "tasksInProgress": 1,
+    "avgResponseTime": "1.2 days"
+  },
+  "departmentMetrics": {
+    "totalTasks": 156,
+    "completedTasks": 134,
+    "overdueTasks": 8,
+    "onTimeCompletion": 89,
+    "avgQualityScore": 85,
+    "teamProductivity": 82
+  }
+}
